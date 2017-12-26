@@ -1,0 +1,12 @@
+---
+- name: Remove repository Webtatic 
+  package:
+    name: webtatic-release
+    state: absent
+  register: wtd_repo_webtatic_removed
+
+- name: Cleanup yum metadata if repository Webtatic was removed
+  command: yum clean metadata
+  args:
+    warn: no
+  when: wtd_repo_webtatic_removed.changed

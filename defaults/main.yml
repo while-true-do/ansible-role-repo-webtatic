@@ -1,0 +1,5 @@
+---
+wtd_repo_webtatic_enabled: true
+
+wtd_repo_webtatic_packages:
+  - "https://mirror.webtatic.com/yum/el7/webtatic-release.rpm"
