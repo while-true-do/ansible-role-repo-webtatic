@@ -1,9 +1,7 @@
-Empty space for build-links, logos or something like this.
+[![Build Status](https://travis-ci.org/while-true-do/ansible-role-repo-webtatic.svg?branch=master)](https://travis-ci.org/while-true-do/ansible-role-repo-webtatic)
 
 # Ansible Role: Repo-Webtatic
 | A role that installes yum repository for updated web related packages (Webtatic).
-
-- If wtd_repo_webtatic_enabled is set to false it will remove rpm package and its repository files.
 
 ## Motivation
 
@@ -32,7 +30,8 @@ git clone https://github.com/while-true-do/ansible-role-repo-webtatic.git while-
 ## Role Variables
 ```yaml
 # defaults/main.yml
-wtd_repo_webtatic_enabled: true
+# You can change the state (present|absent)
+wtd_repo_webtatic_state: present
 
 wtd_repo_webtatic_packages:
   - "https://mirror.webtatic.com/yum/el7/webtatic-release.rpm"
