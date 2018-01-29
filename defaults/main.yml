@@ -1,5 +1,6 @@
 ---
-wtd_repo_webtatic_enabled: true
+# You can change the state (present|absent)
+wtd_repo_webtatic_state: present
 
 wtd_repo_webtatic_packages:
   - "https://mirror.webtatic.com/yum/el7/webtatic-release.rpm"
