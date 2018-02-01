@@ -1,8 +1,7 @@
 ---
-- name: Install repository Webtatic 
+- name: Setting repository Webtatic to "{{ wtd_repo_webtatic_state }}"
   package:
     name: "{{ item }}"
     state: "{{ wtd_repo_webtatic_state }}"
   with_items:
     - "{{ wtd_repo_webtatic_packages }}"
-  when: wtd_repo_webtatic_enabled
