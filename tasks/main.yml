@@ -1,5 +1,5 @@
 ---
-- name: Install repository Webtatic 
+- name: Install repository Webtatic
   package:
     name: "{{ item }}"
     state: "{{ wtd_repo_webtatic_state }}"
