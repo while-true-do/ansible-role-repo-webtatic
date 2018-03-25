@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/while-true-do/ansible-role-repo-webtatic.svg?branch=master)](https://travis-ci.org/while-true-do/ansible-role-repo-webtatic)
 
 # Ansible Role: Repo-Webtatic
-| A role that installes yum repository for updated web related packages (Webtatic).
+| A role that installs yum repository for updated web related packages (Webtatic).
 
 ## Motivation
 
