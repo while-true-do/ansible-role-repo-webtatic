@@ -39,7 +39,11 @@ wtd_repo_webtatic_packages:
 
 ## Dependencies
 
-None.
+This role depends on <https://galaxy.ansible.com/while-true-do/repo-epel>. You have to install the role:
+
+```
+ansible-galaxy install -r requirements.yml
+```
 
 ## Example Playbook
 
