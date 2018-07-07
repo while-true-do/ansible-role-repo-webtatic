@@ -9,16 +9,16 @@ This role is needed to get access to updated web related packages (Webtatic).
 
 ## Installation
 
-Install from [Ansible Galaxy](https://galaxy.ansible.com/while-true-do.repo-webtatic)
+Install from [Ansible Galaxy](https://galaxy.ansible.com/while_true_do.repo-webtatic)
 
 ```
-ansible-galaxy install while-true-do.repo-webtatic
+ansible-galaxy install while_true_do.repo-webtatic
 ```
 
 Install from [Github](https://github.com/while-true-do/ansible-role-repo-webtatic)
 
 ```
-git clone https://github.com/while-true-do/ansible-role-repo-webtatic.git while-true-do.repo-webtatic
+git clone https://github.com/while-true-do/ansible-role-repo-webtatic.git while_true_do.repo-webtatic
 ```
 
 ## Requirements
@@ -39,7 +39,7 @@ wtd_repo_webtatic_packages:
 
 ## Dependencies
 
-This role depends on <https://galaxy.ansible.com/while-true-do/repo-epel>. You have to install the role:
+This role depends on <https://galaxy.ansible.com/while_true_do/repo-epel>. You have to install the role:
 
 ```
 ansible-galaxy install -r requirements.yml
@@ -52,7 +52,7 @@ Simple Example:
 ```yaml
 - hosts: servers 
   roles:
-    - { role: while-true-do.repo-webtatic }
+    - { role: while_true_do.repo-webtatic }
 ```
 
 ## Testing
