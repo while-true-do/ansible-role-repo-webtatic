@@ -2,6 +2,7 @@ dependencies:
 - while_true_do.repo_epel
 
 galaxy_info:
+  role_name: repo_webtatic
   author: while-true-do.org
   description: A role that installs yum repository for updated web related packages (Webtatic).
   company: while-true-do.org
