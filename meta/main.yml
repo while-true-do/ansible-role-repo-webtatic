@@ -1,12 +1,12 @@
 dependencies:
-- while-true-do.repo-epel
+- while_true_do.repo_epel
 
 galaxy_info:
+  role_name: repo_webtatic
   author: while-true-do.org
   description: A role that installs yum repository for updated web related packages (Webtatic).
   company: while-true-do.org
 
-  issue_tracker_url: https://github.com/while-true-do/ansible-role-repo-webtatic/issues
   github_branch: master
   license: BSD
 
